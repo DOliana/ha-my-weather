@@ -5,8 +5,8 @@
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/DOliana/ha-my-weather",
-  "issue_tracker": "https://github.com/DOliana/ha-my-weather/issues",
   "iot_class": "calculated",
+  "issue_tracker": "https://github.com/DOliana/ha-my-weather/issues",
   "requirements": [],
   "version": "1.0.0"
 }
