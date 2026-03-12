@@ -1,0 +1,12 @@
+{
+  "domain": "my_weather",
+  "name": "My Weather",
+  "codeowners": ["@DOliana"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/DOliana/ha-my-weather",
+  "issue_tracker": "https://github.com/DOliana/ha-my-weather/issues",
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "1.0.0"
+}

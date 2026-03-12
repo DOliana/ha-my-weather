@@ -1,0 +1,78 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "My Weather",
+        "description": "Combine a weather forecast entity with local sensors. Local sensor values override the base weather data when available.",
+        "data": {
+          "name": "Name",
+          "base_weather": "Base weather entity",
+          "temperature_sensor": "Temperature sensor",
+          "apparent_temperature_sensor": "Apparent temperature sensor",
+          "dew_point_sensor": "Dew point sensor",
+          "pressure_sensor": "Pressure sensor",
+          "humidity_sensor": "Humidity sensor",
+          "wind_speed_sensor": "Wind speed sensor",
+          "wind_bearing_sensor": "Wind bearing sensor",
+          "visibility_sensor": "Visibility sensor",
+          "cloud_coverage_sensor": "Cloud coverage sensor",
+          "uv_index_sensor": "UV index sensor",
+          "ozone_sensor": "Ozone sensor",
+          "rain_sensor": "Rain sensor"
+        },
+        "data_description": {
+          "name": "Display name for the combined weather entity.",
+          "base_weather": "The weather integration to use as the base source for condition, forecast, and fallback values (e.g. weather.home).",
+          "temperature_sensor": "A sensor providing the current temperature in \u00b0C. Overrides the base weather temperature when available.",
+          "apparent_temperature_sensor": "A sensor providing the feels-like / apparent temperature in \u00b0C. Overrides the base weather apparent temperature.",
+          "dew_point_sensor": "A sensor providing the dew point temperature in \u00b0C. Overrides the base weather dew point.",
+          "pressure_sensor": "A sensor providing atmospheric pressure in hPa. Overrides the base weather pressure when available.",
+          "humidity_sensor": "A sensor providing relative humidity in %. Overrides the base weather humidity when available.",
+          "wind_speed_sensor": "A sensor providing wind speed in km/h. Overrides the base weather wind speed when available.",
+          "wind_bearing_sensor": "A sensor providing wind direction in degrees (0\u2013360). Overrides the base weather wind bearing when available.",
+          "visibility_sensor": "A sensor providing visibility distance in km. Overrides the base weather visibility.",
+          "cloud_coverage_sensor": "A sensor providing cloud coverage in %. Overrides the base weather cloud coverage.",
+          "uv_index_sensor": "A sensor providing the UV index. Overrides the base weather UV index.",
+          "ozone_sensor": "A sensor providing ozone level in Dobson Units (DU). Overrides the base weather ozone.",
+          "rain_sensor": "A binary sensor (on/off) or numeric sensor (rain rate in mm/h). When active or > 0, the weather condition is set to 'rainy'."
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure sensors",
+        "description": "Select which local sensors to use. Leave empty to use the base weather value.",
+        "data": {
+          "temperature_sensor": "Temperature sensor",
+          "apparent_temperature_sensor": "Apparent temperature sensor",
+          "dew_point_sensor": "Dew point sensor",
+          "pressure_sensor": "Pressure sensor",
+          "humidity_sensor": "Humidity sensor",
+          "wind_speed_sensor": "Wind speed sensor",
+          "wind_bearing_sensor": "Wind bearing sensor",
+          "visibility_sensor": "Visibility sensor",
+          "cloud_coverage_sensor": "Cloud coverage sensor",
+          "uv_index_sensor": "UV index sensor",
+          "ozone_sensor": "Ozone sensor",
+          "rain_sensor": "Rain sensor"
+        },
+        "data_description": {
+          "temperature_sensor": "A sensor providing the current temperature in \u00b0C.",
+          "apparent_temperature_sensor": "A sensor providing the feels-like / apparent temperature in \u00b0C.",
+          "dew_point_sensor": "A sensor providing the dew point temperature in \u00b0C.",
+          "pressure_sensor": "A sensor providing atmospheric pressure in hPa.",
+          "humidity_sensor": "A sensor providing relative humidity in %.",
+          "wind_speed_sensor": "A sensor providing wind speed in km/h.",
+          "wind_bearing_sensor": "A sensor providing wind direction in degrees (0\u2013360).",
+          "visibility_sensor": "A sensor providing visibility distance in km.",
+          "cloud_coverage_sensor": "A sensor providing cloud coverage in %.",
+          "uv_index_sensor": "A sensor providing the UV index.",
+          "ozone_sensor": "A sensor providing ozone level in Dobson Units (DU).",
+          "rain_sensor": "A binary sensor (on/off) or numeric sensor (rain rate in mm/h)."
+        }
+      }
+    }
+  }
+}
