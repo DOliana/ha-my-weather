@@ -1,14 +1,12 @@
 """Custom weather component combining local sensors with a base weather forecast."""
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers import config_validation as cv
 
 DOMAIN = "my_weather"
 PLATFORMS = ["weather"]
 
-
-async def async_setup(hass: HomeAssistant, config: dict) -> bool:
-    """Set up the Weather Combined component."""
-    return True
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
