@@ -38,6 +38,8 @@ Local sensor values override the base weather data when available, giving you mo
 3. Select a base weather entity and optionally assign local sensors for each attribute
 4. Sensors can be changed later via the integration's **Configure** button
 
+Now use your favorite weather card.
+
 ## How it works
 
 The integration creates a weather entity that reads current conditions from your local sensors (when available) and falls back to the base weather entity's values otherwise. Forecasts (daily and hourly) are always sourced from the base weather entity.
