@@ -1,6 +1,7 @@
 {
   "domain": "my_weather",
   "name": "My Weather",
+  "homeassistant": "2024.4.0",
   "codeowners": ["@DOliana"],
   "config_flow": true,
   "dependencies": [],
