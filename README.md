@@ -1,6 +1,7 @@
 # My Weather
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![HACS Action](https://github.com/DOliana/ha-my-weather/actions/workflows/validate.yml/badge.svg)](https://github.com/DOliana/ha-my-weather/actions/workflows/validate.yml)
 
 A Home Assistant custom integration that combines a base weather forecast entity with local sensors. Local sensor values override the base weather data when available, giving you more accurate current conditions while keeping forecasts from your preferred weather provider.
 
